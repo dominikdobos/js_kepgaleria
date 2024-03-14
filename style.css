@@ -1,0 +1,36 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+.kep img {
+  width: 200px;
+  height: 100%;
+}
+
+.nagykep div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.nagykep div > *:not(.nagykep img) {
+  flex: 0 0 25%;
+}
+
+.nagykep {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.nagykep img {
+  width: 50%;
+}
